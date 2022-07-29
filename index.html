@@ -4,18 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <title>Modifico el título inicial para un futuro reset</title>
   </head>
   <body>
-    <main>
-      <h1 style="color: green; text-align: center">Bienvenido</h1>
-      <p>Ir a:</p>
-      <ul>
-        <li><a href="mision.html">Mision</a></li>
-        <li><a href="nosotros.html">Nosotros</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-        <li><a href="estamos.html">Donde encontrarnos</a></li>
-      </ul>
+    <main class="container">
+      <h1 class="p-3 mb-2 bg-primary text-white text-center">Bienvenido</h1>
+
+      <!-- A grey horizontal navbar that becomes vertical on small screens -->
+      <nav class="navbar navbar-expand-sm bg-light">
+        <div class="container-fluid">
+          <!-- Links -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="mision.html">Mision</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="estamos.html">Donde encontrarnos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
